@@ -1,0 +1,46 @@
+# Dependencies and generated website output
+node_modules/
+website/node_modules/
+.next/
+website/.next/
+.vinext/
+website/.vinext/
+dist/
+website/dist/
+.wrangler/
+website/.wrangler/
+*.tsbuildinfo
+
+# Environment files and local credentials
+.env
+.env.*
+*.local
+
+# Internal QA, temporary, and source-workspace material
+tmp/
+qa/
+website/qa/
+work-sample/
+_diagnostics/
+_runtime_evidence/
+_snapshots/
+Rollback_Snapshots/
+
+# Power BI source files and raw datasets
+*.pbip
+*.pbir
+*.pbism
+*.pbix
+*.pbit
+model.bim
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+
+# Logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
