@@ -1,6 +1,6 @@
 # Portfolio Website
 
-Recruiter-facing portfolio website for Ecenur Keskin, built with an OpenAI Sites-compatible Vinext/Next structure.
+Recruiter-facing portfolio website for Ecenur Keskin, built with the Next.js App Router.
 
 ## Routes
 

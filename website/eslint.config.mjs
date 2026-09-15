@@ -7,9 +7,6 @@ export default defineConfig([
   ...nextTypeScript,
   globalIgnores([
     ".next/**",
-    ".vinext/**",
-    ".wrangler/**",
-    "dist/**",
     "next-env.d.ts",
   ]),
 ]);
