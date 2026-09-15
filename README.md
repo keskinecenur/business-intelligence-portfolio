@@ -4,6 +4,8 @@ Industrial Engineering perspective applied to supply chain, operations, analytic
 
 I use data to clarify how a business is operating: what is driving performance, where risk is accumulating, and which management action the evidence supports. These five Power BI case studies demonstrate dimensional modeling, measure design, data validation, KPI architecture, and decision-focused communication across several operating environments.
 
+**[View the live portfolio](https://business-intelligence-portfolio-puce.vercel.app)**
+
 > Portfolio disclosure: The companies and datasets in this repository are simulated work-sample scenarios. They do not represent clients, employers, confidential data, or paid engagements.
 
 ## Selected work

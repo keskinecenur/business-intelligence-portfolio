@@ -3,7 +3,7 @@ import Link from 'next/link';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://business-intelligence-portfolio-puce.vercel.app'),
   title: { default: 'Ecenur Keskin | Data & Business Intelligence', template: '%s | Ecenur Keskin' },
   description: 'Industrial Engineering perspective applied to supply chain, operations, data analytics, and business intelligence.',
   openGraph: {
@@ -36,6 +36,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <footer>
           <p>Ecenur Keskin</p>
           <p>Industrial Engineering + Operations + Business Intelligence</p>
+          <p><a href="https://github.com/keskinecenur/business-intelligence-portfolio" target="_blank" rel="noreferrer">View source and case studies on GitHub</a></p>
           <p className="fine-print">Portfolio case studies use simulated datasets and do not represent client engagements or confidential business data.</p>
         </footer>
       </body>
