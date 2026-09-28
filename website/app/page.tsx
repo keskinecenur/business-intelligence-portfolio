@@ -9,8 +9,8 @@ export default function Home() {
       <section className="hero">
         <div className="hero-copy">
           <p className="eyebrow">Ecenur Keskin / Analyst Portfolio</p>
-          <h1>Business intelligence built for operating decisions.</h1>
-          <p className="hero-lede">I bring an Industrial Engineering perspective to data and BI - connecting business operations, analytical models, and management action across supply chain and service environments.</p>
+          <h1>Power BI projects focused on operations and business performance.</h1>
+          <p className="hero-lede">I use an Industrial Engineering perspective to analyze supply chain and service operations, build reliable data models, and present findings that managers can act on.</p>
           <div className="hero-actions">
             <Link className="button primary" href="#work">View selected work</Link>
             <Link className="button secondary" href="#about">About my approach</Link>
@@ -34,8 +34,8 @@ export default function Home() {
       <section id="work" className="section-shell work-section">
         <div className="section-heading">
           <p className="eyebrow">Selected work</p>
-          <h2>From operational signal to management response.</h2>
-          <p>The strongest examples lead with the business question, then show the model, measures, and visual system used to support a decision.</p>
+          <h2>Five projects built around specific operating questions.</h2>
+          <p>CedarVale and LumaTrail are the most detailed examples. Each project explains the question, the data model, the measures, the findings, and the limits of the available data.</p>
         </div>
 
         <article className="feature-card flagship">
@@ -93,16 +93,16 @@ export default function Home() {
       <section id="about" className="about-section section-shell">
         <div>
           <p className="eyebrow">About</p>
-          <h2>Operations knowledge shapes the analysis.</h2>
+          <h2>How I approach the work.</h2>
         </div>
         <div className="about-copy">
-          <p>I approach analytics as a business operating discipline. My Industrial Engineering background helps me frame how demand, capacity, service quality, cost, working capital, and process variation interact - then translate those relationships into reporting that managers can use.</p>
-          <p>This portfolio demonstrates that approach across logistics, e-commerce, healthcare, restaurant, and field-service scenarios. The emphasis is consistent: define the business question, model the available data carefully, surface the decision signal, and state the limits of the evidence.</p>
+          <p>My Industrial Engineering background helps me examine how demand, capacity, service quality, cost, working capital, and process variation interact. I use that context to decide which measures belong together and what a report should help someone understand.</p>
+          <p>Across the five projects, I start with the business question, model and validate the available data, check the measure definitions, and state clearly when the source does not support a calculation.</p>
         </div>
       </section>
 
       <section id="skills" className="skills-section section-shell">
-        <div className="section-heading compact"><p className="eyebrow">Skills</p><h2>A structured analytics toolkit.</h2></div>
+        <div className="section-heading compact"><p className="eyebrow">Skills</p><h2>Tools and methods I use.</h2></div>
         <div className="skills-grid">
           <div><h3>Business & operations</h3><p>Supply chain analysis, logistics, service operations, process thinking, KPI definition, variance analysis, working-capital awareness</p></div>
           <div><h3>Data & modeling</h3><p>Data preparation, dimensional modeling, measure design, data validation, relationship logic, analytical limitations</p></div>
@@ -113,9 +113,9 @@ export default function Home() {
       <section className="principles section-shell">
         <p className="eyebrow">Analytical principles</p>
         <div className="principle-grid">
-          <div><span>01</span><h3>Start with the decision.</h3><p>Every page answers a business question and points to an operating response.</p></div>
-          <div><span>02</span><h3>Protect metric meaning.</h3><p>Measures stay tied to the grain, fields, and cost definitions the data can support.</p></div>
-          <div><span>03</span><h3>Make limits visible.</h3><p>Unsupported metrics are withheld and assumptions are stated without weakening the story.</p></div>
+          <div><span>01</span><h3>Define the question.</h3><p>I decide what the report needs to explain before choosing the measures or layout.</p></div>
+          <div><span>02</span><h3>Check the measure.</h3><p>Every calculation needs to match the data grain, relationships, time period, and available cost fields.</p></div>
+          <div><span>03</span><h3>Be clear about limits.</h3><p>If the source does not support a useful calculation, I leave it out and explain why.</p></div>
         </div>
       </section>
     </main>

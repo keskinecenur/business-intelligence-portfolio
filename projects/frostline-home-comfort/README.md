@@ -1,35 +1,31 @@
 # Frostline Home Comfort
 
-**Supporting case study | Field-service operations | Power BI**
+**Field-service operations | Power BI**
 
-Frostline is a simulated portfolio case study for service demand, technician capacity, first-time fix, utilization, customer satisfaction, customers, and direct service economics.
+Frostline is a simulated field-service case study covering seasonal demand, technician capacity, first-time fix, utilization, customer satisfaction, customers, and direct service economics.
 
 ![Frostline home](../../website/public/assets/screenshots/frostline/09-home.png)
 
-## Business challenge
+## Operations question
 
-Service leaders needed to balance weather-driven demand and technician capacity while protecting first-time fix, customer satisfaction, and direct service contribution.
+Service leaders needed to balance weather-driven demand and technician capacity without losing first-time-fix performance, customer satisfaction, or direct service contribution.
 
-## Solution
+## Report coverage
 
-A field-service reporting system covers the executive picture, service operations, finance and customers, and technician performance.
+The report moves from an executive overview to service operations, finance and customers, and technician performance. Technician scorecards combine productivity, first-time fix, utilization, and CSAT rather than ranking technicians on revenue alone.
 
-## Key decision signals
-
-Revenue; service calls; average ticket; technician utilization; first-time fix; CSAT; Direct Service Contribution; open/completed work; repeat-visit and technician exceptions.
-
-## Management insights
+## Findings
 
 - The latest displayed period shows $163K revenue, 156 service calls, and 89.8% technician utilization.
-- First-time fix is 78.2% and slightly below target, creating the immediate management focus.
-- The technician view combines revenue with utilization, first-time fix, and customer satisfaction instead of ranking performance on one metric.
+- First-time fix is 78.2% and slightly below target, making it the clearest current service issue.
+- The technician view combines revenue with utilization, first-time fix, and customer satisfaction.
 
-## Analytical judgment and limitations
+## Metric boundary
 
-Direct Service Contribution is not operating profit. It excludes broader operating expenses that are not present in the source and is labeled accordingly.
+Direct Service Contribution is not operating profit. I calculated it from directly attributable service revenue and costs; broader operating expenses are not present in the source data.
 
 ![Frostline technician performance](../../website/public/assets/screenshots/frostline/10-technician-performance.png)
 
-## Tools and skills
+## Built with
 
-Power BI, Power Query, DAX, field-service analytics, capacity analysis, technician scorecards, customer and service-quality analysis.
+Power BI, Power Query, DAX, field-service analysis, capacity analysis, technician scorecards, and customer and service-quality analysis.

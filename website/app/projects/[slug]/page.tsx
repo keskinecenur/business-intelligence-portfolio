@@ -49,20 +49,20 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
       </section>
 
       <section className="case-overview section-shell">
-        <article><p className="case-kicker">Business challenge</p><h2>The operating question</h2><p>{project.challenge}</p></article>
-        <article><p className="case-kicker">Solution</p><h2>The management view</h2><p>{project.solution}</p></article>
+        <article><p className="case-kicker">Business question</p><h2>What needed to be understood</h2><p>{project.challenge}</p></article>
+        <article><p className="case-kicker">What I built</p><h2>Report scope</h2><p>{project.solution}</p></article>
       </section>
 
       <section className="case-band">
         <div className="section-shell two-column">
-          <div><p className="case-kicker">Key business questions</p><h2>What the analysis needed to resolve</h2></div>
+          <div><p className="case-kicker">Questions covered</p><h2>What the report examines</h2></div>
           <List items={project.questions} />
         </div>
       </section>
 
       <section className="section-shell case-grid">
-        <article><p className="case-kicker">Analytical approach</p><h2>From source processes to decisions</h2><List items={project.approach} /></article>
-        <article className="kpi-panel"><p className="case-kicker">Key KPIs / decision signals</p><div className="tag-list">{project.kpis.map((kpi) => <span key={kpi}>{kpi}</span>)}</div></article>
+        <article><p className="case-kicker">Data and modeling</p><h2>How I built the analysis</h2><List items={project.approach} /></article>
+        <article className="kpi-panel"><p className="case-kicker">Measures used</p><div className="tag-list">{project.kpis.map((kpi) => <span key={kpi}>{kpi}</span>)}</div></article>
       </section>
 
       <section className="section-shell visual-section">
@@ -73,19 +73,19 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
       </section>
 
       <section className="section-shell insights-section">
-        <div><p className="case-kicker">Management insights</p><h2>Signals designed for follow-through</h2></div>
+        <div><p className="case-kicker">Key findings</p><h2>What the report shows</h2></div>
         <List items={project.insights} />
       </section>
 
       <section className="case-band evidence-band">
         <div className="section-shell evidence-grid">
-          <article><p className="case-kicker">Data / modeling considerations</p><h2>How the analysis is grounded</h2><p>{project.modeling}</p></article>
-          <article className="judgment"><p className="case-kicker">Analytical judgment / limitations</p><h2>What the dashboard does not claim</h2><p>{project.limitation}</p></article>
+          <article><p className="case-kicker">Model notes</p><h2>How the data is organized</h2><p>{project.modeling}</p></article>
+          <article className="judgment"><p className="case-kicker">Limits and definitions</p><h2>What I left out or qualified</h2><p>{project.limitation}</p></article>
         </div>
       </section>
 
       <section className="section-shell tools-row">
-        <div><p className="case-kicker">Tools & skills</p><h2>Capabilities demonstrated</h2></div>
+        <div><p className="case-kicker">Tools and methods</p><h2>Built with</h2></div>
         <div className="tag-list">{project.tools.map((tool) => <span key={tool}>{tool}</span>)}</div>
       </section>
 

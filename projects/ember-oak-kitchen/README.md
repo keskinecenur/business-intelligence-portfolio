@@ -1,35 +1,31 @@
 # Ember & Oak Kitchen
 
-**Supporting case study | Restaurant operations | Power BI**
+**Restaurant operations | Power BI**
 
-Ember & Oak is a simulated portfolio case study for owner/operator decisions across sales, menu economics, food cost, purchasing, channels, and customers.
+Ember & Oak is a simulated restaurant case study covering sales, menu economics, food cost, purchasing, channels, and customers.
 
 ![Ember and Oak executive overview](../../website/public/assets/screenshots/ember-oak/07-executive-overview.png)
 
-## Business challenge
+## Owner's question
 
-The owner needed to connect sales growth with menu mix, food cost, purchasing, channel demand, and the economics of high-volume items.
+The owner needed to understand how sales growth, menu mix, food cost, purchasing, channel demand, and high-volume items affected the business.
 
-## Solution
+## What I built
 
-A restaurant management workspace focuses on net sales, order value, food-cost pressure, menu gross contribution, purchasing patterns, and item/category decision signals.
+The report covers net sales, orders, average order value, food-cost pressure, menu gross contribution, purchasing patterns, channel mix, and item- and category-level results.
 
-## Key decision signals
-
-Net sales; orders; AOV; food cost %; menu gross contribution; units sold; channel mix; category mix; purchasing trend.
-
-## Management insights
+## Findings
 
 - Latest displayed revenue is $42K and food cost is 35.0%.
 - Food cost is 5.0 points above the 30.0% target, directing review toward recipes, pricing, and recent protein purchases.
-- The item decision table distinguishes popular, strong-contribution items from lower-volume items needing review.
+- The item table separates popular, strong-contribution items from lower-volume items that need review.
 
-## Data governance strength
+## Labor-data limitation
 
-Labor source data was inconsistent enough that labor-based margin and downstream profitability measures were placed on Source Hold. They were intentionally withheld rather than used to present a misleading profit result. Menu gross contribution is not described as operating profit.
+The labor source failed consistency checks. I placed labor-based margin and downstream profitability measures on Source Hold instead of presenting a result I could not validate. Menu gross contribution is not described as operating profit.
 
 ![Ember and Oak menu performance](../../website/public/assets/screenshots/ember-oak/08-menu-performance.png)
 
-## Tools and skills
+## Built with
 
-Power BI, Power Query, DAX, menu engineering, purchasing analysis, KPI design, data governance.
+Power BI, Power Query, DAX, menu engineering, purchasing analysis, KPI definitions, and data validation.

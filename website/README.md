@@ -5,7 +5,7 @@ Recruiter-facing portfolio website for Ecenur Keskin, built with the Next.js App
 ## Routes
 
 - `/` - hero, selected work, about, skills, and analytical principles
-- `/projects/cedarvale-freight-partners` - flagship logistics case study
+- `/projects/cedarvale-freight-partners` - logistics case study
 - `/projects/lumatrail-market` - e-commerce and merchandising case study
 - `/projects/pinebridge-dental-arts` - dental practice operations case study
 - `/projects/ember-oak-kitchen` - restaurant operations case study
